@@ -7,39 +7,10 @@ class Searchbar extends React.Component {
         isActive: true
       };
     
-      handleShow = () => {
-        this.setState({isActive: true});
-      };
-    
       handleHide = () => {
         this.setState({isActive: false});
       };
     
-    //   render() {
-    //       return (
-    //         <div>
-    //           {this.state.isActive && <h1>Hello react</h1>}
-    //            {this.state.isActive ?(
-    //               <button onClick={this.handleHide}>Hide</button>
-    //            ) : (
-    //              <button onClick={this.handleShow}>Show</button>
-    //            )}
-    //         </div>
-    //       )
-    //   }
-    
-    // state = {
-    //     isActive: false
-    // };
-
-    // showContent() {
-    //     window.alert('yay');
-    //     this.setState({isActive: false})
-    // }
-
-    // hideContent() {
-
-    // }
     
     render() {
         return(
