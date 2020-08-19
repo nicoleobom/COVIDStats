@@ -45,7 +45,7 @@ class Searchbar extends React.Component {
         return(
             <div className="searchbar">
                 {this.state.isActive && <input type="text" className="input" placeholder="Enter a zipcode..." maxLength="5"/>}
-                <a onClick={this.handleHide}><i className="fas fa-search fa-2x"></i></a>
+                {this.state.isActive && <a onClick={this.handleHide}><i className="fas fa-search fa-2x"></i></a>}
             </div>
         )
     }
