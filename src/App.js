@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import Searchbar from './components/searchbar/index';
-import News from './components/news/index';
+// import News from './components/news/index';
 
 class App extends React.Component {
 
@@ -10,7 +10,6 @@ class App extends React.Component {
     return (
       <div>
         <Searchbar />
-        <News />
       </div>
     );
   }
