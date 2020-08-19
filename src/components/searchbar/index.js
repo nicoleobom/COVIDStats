@@ -4,7 +4,7 @@ import News from '../news/index';
 
 class Searchbar extends React.Component {
     state = {
-        isActive: false
+        isActive: true
       };
     
       handleShow = () => {
