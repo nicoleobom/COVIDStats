@@ -12,3 +12,8 @@ input {
     text-align: center;
     margin-top: 20%;
 }
+
+i {
+    color: white;
+    padding-left: 10px;
+}
