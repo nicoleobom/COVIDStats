@@ -1,0 +1,14 @@
+input {
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    width: 25%;
+    height: 50px;
+    font-size: 30px;
+    color: black;
+    outline: none;
+}
+
+.searchbar {
+    text-align: center;
+    margin-top: 20%;
+}
